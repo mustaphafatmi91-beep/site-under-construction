@@ -1,4 +1,4 @@
-import { Settings, Mail, Clock } from "lucide-react";
+import { Hourglass, Mail, Clock } from "lucide-react";
 import vitrisolLogo from "@/assets/vitrisol-logo-new.png";
 
 const Index = () => {
@@ -22,11 +22,11 @@ const Index = () => {
           />
         </div>
 
-        {/* Animated gear icon */}
+        {/* Animated hourglass icon */}
         <div className="mb-8 flex justify-center">
           <div className="relative">
             <div className="w-24 h-24 rounded-full bg-muted flex items-center justify-center">
-              <Settings className="w-12 h-12 text-secondary animate-spin-slow" />
+              <Hourglass className="w-12 h-12 text-secondary animate-pulse" />
             </div>
             <div className="absolute inset-0 rounded-full border-2 border-secondary/30 animate-pulse-glow" />
           </div>
@@ -34,13 +34,13 @@ const Index = () => {
 
         {/* Main heading */}
         <h1 className="text-4xl md:text-5xl font-heading font-bold text-primary mb-4 animate-float">
-          Site en maintenance
+          Bientôt disponible
         </h1>
 
         {/* Subheading */}
         <p className="text-lg md:text-xl text-muted-foreground mb-8 font-body leading-relaxed">
-          Nous travaillons actuellement à améliorer notre site pour vous offrir
-          une meilleure expérience. Nous serons bientôt de retour !
+          Nous préparons quelque chose d'exceptionnel pour vous.
+          Restez connectés, l'aventure commence très bientôt !
         </p>
 
         {/* Info cards */}
