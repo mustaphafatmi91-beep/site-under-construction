@@ -1,5 +1,5 @@
 import { Settings, Mail, Clock } from "lucide-react";
-import vitrisolLogo from "@/assets/vitrisol-logo.png";
+import vitrisolLogo from "@/assets/vitrisol-logo-transparent.png";
 
 const Index = () => {
   return (
