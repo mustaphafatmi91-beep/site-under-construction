@@ -1,4 +1,5 @@
 import { Settings, Mail, Clock } from "lucide-react";
+import vitrisolLogo from "@/assets/vitrisol-logo.png";
 
 const Index = () => {
   return (
@@ -13,25 +14,12 @@ const Index = () => {
       {/* Content */}
       <div className="relative z-10 text-center max-w-2xl mx-auto">
         {/* Logo */}
-        <div className="mb-8 flex items-center justify-center gap-3">
-          <div className="w-12 h-12 bg-primary rounded-lg flex items-center justify-center">
-            <svg
-              viewBox="0 0 24 24"
-              fill="none"
-              className="w-7 h-7 text-primary-foreground"
-              stroke="currentColor"
-              strokeWidth="1.5"
-            >
-              <rect x="3" y="3" width="18" height="18" rx="2" />
-              <rect x="7" y="7" width="4" height="4" />
-              <rect x="13" y="7" width="4" height="4" />
-              <rect x="7" y="13" width="4" height="4" />
-              <rect x="13" y="13" width="4" height="4" />
-            </svg>
-          </div>
-          <span className="text-2xl font-heading font-semibold text-primary">
-            Vitrisol
-          </span>
+        <div className="mb-8 flex items-center justify-center">
+          <img 
+            src={vitrisolLogo} 
+            alt="Vitrisol" 
+            className="h-12 w-auto"
+          />
         </div>
 
         {/* Animated gear icon */}
