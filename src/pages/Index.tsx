@@ -18,7 +18,7 @@ const Index = () => {
           <img 
             src={vitrisolLogo} 
             alt="Vitrisol" 
-            className="h-12 w-auto"
+            className="w-[380px] h-auto"
           />
         </div>
 
